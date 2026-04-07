@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>🧠 PureMemory</h1>
+  <img src="assets/logo.png" width="300" alt="PureMemory AI Memory Core Logo">
+  <br/>
+  <h1>PureMemory</h1>
   <p><em>Your Second Brain, Automatically Curated by AI.</em></p>
 </div>
 
