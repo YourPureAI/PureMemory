@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Options - User Memory Extension</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; text-align: center; background: #fdfdfd; }
+        .container { max-width: 400px; margin: 0 auto; text-align: left; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        input[type="text"] { width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f1f1f1; margin: 5px 0; padding: 10px; display: flex; justify-content: space-between; border-radius: 4px; }
+        .remove { color: red; cursor: pointer; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Local Domain Blacklist</h2>
+        <p>Domains listed here will instantly block page text extraction. <i>(e.g., banking.com)</i></p>
+        <input type="text" id="domainInput" placeholder="Enter domain..." />
+        <button id="addBtn">Add Domain</button>
+        <ul id="blacklist"></ul>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Agents folder (usually internal prompts/system instructions that might be sensitive or just meta)
+.agents/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables & Sensitive data
+.env
+.env.local
+.env.*
+privacy.json
+secret*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js (in case building extension adds node_modules)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+test-server.db
+user-memory.db
+user-memory.db-shm
+user-memory.db-wal
+db_output.txt
+
+# Logs
+*.log

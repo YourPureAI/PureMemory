@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "User Memory Collector",
+  "version": "1.0.0",
+  "description": "Securely aggregates long-term reading activity context to local AI memory",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "activeTab",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://localhost:45678/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options/options.html"
+}
