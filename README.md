@@ -19,6 +19,16 @@ Here is how it works:
 2. **Distill (The Pipeline)**: Your raw activity data is securely transferred to your private server where an advanced AI pipeline reads, summarizes, and categorizes your activity into meaningful, long-term memory embeddings.
 3. **Recall (The MCP Server)**: Your AI agents can seamlessly query these memories through a built-in MCP (Model Context Protocol) server. When you ask a question, the AI autonomously retrieves exactly what you've been researching, reading, or coding over the past days.
 
+## 🏗️ Architecture & Philosophy
+
+At its design core, PureMemory follows a strict **decoupled Edge-to-Server structure**:
+- **The Edge (Data Collectors):** Lightweight agents deployed across your devices (laptops, mobile phones, etc.) are strictly designed to observe and gather context without draining your battery or local resources.
+- **The Core (Central Server):** A dedicated home server—such as a Mac Mini with 16 GB RAM running local LLMs—does the heavy lifting. It safely executes all the complex summarization, categorization, and contextual investigation behind the scenes.
+
+This architecture enables seamless **multi-device and multi-user support**. A single private server can aggregate context from all your hardware, providing a unified memory base. 
+
+The ultimate goal is to make your personal, evolving map of interests universally accessible at any time to any application utilizing the MCP (Model Context Protocol). By doing so, third-party apps can offer deeply personalized content and experiences, entirely powered by your locally stored, private data.
+
 ## ✨ Why PureMemory?
 
 - **True AI Personalization**: Make any LLM feel like it truly knows you. Your AI models get immediate, secure access to your recent context and long-term interests.
